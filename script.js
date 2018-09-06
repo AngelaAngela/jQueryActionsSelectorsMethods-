@@ -2,9 +2,9 @@
 function main(){
 
 
-$("#grow-me").addClass(".big");
+$("#grow-me").addClass('big');
 
-$("#shrink-me").removeClass(".big");
+$("#shrink-me").removeClass('big');
 
 
 $("li").text(console.log);
@@ -23,10 +23,10 @@ $('#show-me').css('display', 'block');
 const name = $("input").val();
 	$("h1").html(" welcome " + name);
 
+	//or....$('h1').html("Welcome " + $('input').val());
+
 
 }
-
-
 
 
 $("#action").on("click", main);
